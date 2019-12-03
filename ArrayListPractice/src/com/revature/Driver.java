@@ -40,7 +40,6 @@ public class Driver {
 		for(int i = 0; i < AMOUNT; i++) {
 			mylist.set(i, AMOUNT % (2 * (i % 10) + 3));
 		}
-		
 		for(int i = 0; i < AMOUNT; i++) {
 			mylist.remove(0);
 		}
